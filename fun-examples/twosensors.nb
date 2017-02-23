@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     90702,       1973]
-NotebookOptionsPosition[     89496,       1928]
-NotebookOutlinePosition[     89871,       1944]
-CellTagsIndexPosition[     89828,       1941]
+NotebookDataLength[     91575,       1994]
+NotebookOptionsPosition[     90369,       1949]
+NotebookOutlinePosition[     90746,       1965]
+CellTagsIndexPosition[     90703,       1962]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -467,7 +467,7 @@ Cell[BoxData[
                     Part[
                     Devices`DeviceAPI`DeviceDump`opacities$$, 
                     Devices`DeviceAPI`DeviceDump`indr$$]], StandardForm],
-                  ImageSizeCache->{703.5, {29., 15.}}],
+                  ImageSizeCache->{709., {5., 12.}}],
                  DynamicModuleValues:>{}],
                 "SummaryItem"]}], "\[SpanFromLeft]"}
             },
@@ -1868,41 +1868,62 @@ e0299f22c585"]
 }, Open  ]],
 
 Cell[BoxData[
- RowBox[{"Dynamic", "[", 
-  RowBox[{"Graphics3D", "[", 
-   RowBox[{
-    RowBox[{"{", 
-     RowBox[{"Blue", ",", 
-      RowBox[{"AbsoluteThickness", "[", "4", "]"}], ",", 
-      RowBox[{"Line", "[", 
-       RowBox[{"Transpose", "[", 
-        RowBox[{"{", 
-         RowBox[{
-          RowBox[{"Rescale", "@", 
-           RowBox[{"magnetdata", "[", 
-            RowBox[{"[", 
-             RowBox[{"All", ",", "2"}], "]"}], "]"}]}], ",", 
-          RowBox[{"Rescale", "@", 
-           RowBox[{"Reverse", "@", 
+ RowBox[{"Deploy", "@", 
+  RowBox[{"Dynamic", "[", 
+   RowBox[{"Graphics3D", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"Blue", ",", 
+       RowBox[{"AbsoluteThickness", "[", "4", "]"}], ",", 
+       "\[IndentingNewLine]", 
+       RowBox[{"Line", "[", 
+        RowBox[{"Transpose", "[", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"Rescale", "@", 
+            RowBox[{"Range", "[", 
+             RowBox[{"1", ",", "160"}], "]"}]}], ",", 
+           RowBox[{"Rescale", "@", 
             RowBox[{"magnetdata", "[", 
              RowBox[{"[", 
-              RowBox[{"All", ",", "2"}], "]"}], "]"}]}]}], ",", 
-          RowBox[{"Rescale", "@", 
-           RowBox[{"forcedata", "[", 
-            RowBox[{"[", 
-             RowBox[{"All", ",", "2"}], "]"}], "]"}]}]}], "}"}], "]"}], 
-       "]"}]}], "}"}], ",", 
-    RowBox[{"PlotRange", "\[Rule]", 
-     RowBox[{"{", 
-      RowBox[{
-       RowBox[{"{", 
-        RowBox[{"0", ",", "1"}], "}"}], ",", 
-       RowBox[{"{", 
-        RowBox[{"0", ",", "1"}], "}"}]}], "}"}]}]}], "]"}], "]"}]], "Input",
+              RowBox[{"All", ",", "2"}], "]"}], "]"}]}], ",", 
+           RowBox[{"Rescale", "@", 
+            RowBox[{"forcedata", "[", 
+             RowBox[{"[", 
+              RowBox[{"All", ",", "2"}], "]"}], "]"}]}]}], "}"}], "]"}], 
+        "]"}], ",", 
+       RowBox[{"Line", "[", 
+        RowBox[{"Transpose", "[", 
+         RowBox[{"RotateLeft", "@", 
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"Rescale", "@", 
+             RowBox[{"Range", "[", 
+              RowBox[{"1", ",", "160"}], "]"}]}], ",", 
+            RowBox[{"Rescale", "@", 
+             RowBox[{"magnetdata", "[", 
+              RowBox[{"[", 
+               RowBox[{"All", ",", "2"}], "]"}], "]"}]}], ",", 
+            RowBox[{"Rescale", "@", 
+             RowBox[{"forcedata", "[", 
+              RowBox[{"[", 
+               RowBox[{"All", ",", "2"}], "]"}], "]"}]}]}], "}"}]}], "]"}], 
+        "]"}]}], "}"}], ",", 
+     RowBox[{"PlotRange", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"0", ",", "1"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"0", ",", "1"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"0", ",", "1"}], "}"}]}], "}"}]}]}], "]"}], "]"}]}]], "Input",
  CellChangeTimes->{{3.6967043368227663`*^9, 3.6967043937188225`*^9}, {
   3.6967044346170883`*^9, 3.6967044490074043`*^9}, {3.696704495543213*^9, 
-  3.696704523226551*^9}, {3.696704582056179*^9, 
-  3.6967045993680797`*^9}},ExpressionUUID->"5b5e3c4a-98d9-43ae-880c-\
+  3.696704523226551*^9}, {3.696704582056179*^9, 3.6967045993680797`*^9}, {
+  3.6967052556004095`*^9, 3.6967052580100613`*^9}, {3.6967052987602596`*^9, 
+  3.696705347354226*^9}, {3.696705417784792*^9, 
+  3.6967054284242325`*^9}},ExpressionUUID->"5b5e3c4a-98d9-43ae-880c-\
 b93be127be0f"],
 
 Cell[BoxData[
@@ -1926,8 +1947,8 @@ Cell[BoxData["160.`"], "Output",
 da01c4812a1e"]
 }, Open  ]]
 },
-WindowSize->{958, 988},
-WindowMargins->{{-7, Automatic}, {Automatic, 0}},
+WindowSize->{1920, 997},
+WindowMargins->{{-8, Automatic}, {Automatic, -8}},
 Magnification:>1.2 Inherited,
 FrontEndVersion->"11.1 for Microsoft Windows (64-bit) (February 20, 2017)",
 StyleDefinitions->"Default.nb"
@@ -1945,35 +1966,35 @@ CellTagsIndex->{}
 Notebook[{
 Cell[CellGroupData[{
 Cell[580, 22, 206, 4, 37, "Input"],
-Cell[789, 28, 31181, 639, 137, "Output"]
+Cell[789, 28, 31179, 639, 164, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[32007, 672, 298, 7, 37, "Input"],
-Cell[32308, 681, 33483, 689, 164, "Output"]
+Cell[32005, 672, 298, 7, 37, "Input"],
+Cell[32306, 681, 33483, 689, 84, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[65828, 1375, 2023, 53, 278, "Input"],
-Cell[67854, 1430, 16654, 331, 84, "Output"]
+Cell[65826, 1375, 2023, 53, 278, "Input"],
+Cell[67852, 1430, 16654, 331, 84, "Output"]
 }, Open  ]],
-Cell[84523, 1764, 408, 11, 37, "Input"],
-Cell[84934, 1777, 816, 22, 62, "Input"],
+Cell[84521, 1764, 408, 11, 37, "Input"],
+Cell[84932, 1777, 816, 22, 37, "Input"],
 Cell[CellGroupData[{
-Cell[85775, 1803, 361, 10, 37, "Input"],
-Cell[86139, 1815, 332, 11, 37, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[86508, 1831, 273, 7, 37, "Input"],
-Cell[86784, 1840, 236, 7, 37, "Output"]
+Cell[85773, 1803, 361, 10, 37, "Input"],
+Cell[86137, 1815, 332, 11, 37, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[87057, 1852, 273, 7, 37, "Input"],
-Cell[87333, 1861, 211, 5, 37, "Output"]
+Cell[86506, 1831, 273, 7, 37, "Input"],
+Cell[86782, 1840, 236, 7, 37, "Output"]
 }, Open  ]],
-Cell[87559, 1869, 1368, 36, 110, "Input"],
-Cell[88930, 1907, 211, 5, 37, "Input"],
 Cell[CellGroupData[{
-Cell[89166, 1916, 177, 4, 37, "Input"],
-Cell[89346, 1922, 134, 3, 37, "Output"]
+Cell[87055, 1852, 273, 7, 37, "Input"],
+Cell[87331, 1861, 211, 5, 37, "Output"]
+}, Open  ]],
+Cell[87557, 1869, 2243, 57, 86, "Input"],
+Cell[89803, 1928, 211, 5, 37, "Input"],
+Cell[CellGroupData[{
+Cell[90039, 1937, 177, 4, 37, "Input"],
+Cell[90219, 1943, 134, 3, 37, "Output"]
 }, Open  ]]
 }
 ]
