@@ -919,7 +919,7 @@ uIaM0zIjI4PayJ3Ucv1Tp6D9mf8Vfx/8C+A+Swo=
                Devices`DeviceAPI`DeviceDump`d$$ = 
                DeviceObject[{"Vernier", 1}], 
                Devices`DeviceAPI`DeviceDump`ind$$ = 2, 
-               Devices`DeviceAPI`DeviceDump`indr$$ = 1}, 
+               Devices`DeviceAPI`DeviceDump`indr$$ = 2}, 
                DynamicBox[ToBoxes[Devices`DeviceAPI`DeviceDump`ind$$ = If[
                     DeviceOpenQ[Devices`DeviceAPI`DeviceDump`d$$], 1, 2]; 
                  Devices`DeviceAPI`DeviceDump`indr$$ = If[
@@ -1835,7 +1835,7 @@ another sensor.\
 dd87286a099c"]
 },
 WindowSize->{775, 872},
-WindowMargins->{{75, Automatic}, {16, Automatic}},
+WindowMargins->{{250, Automatic}, {Automatic, 0}},
 DockedCells->{
   Cell["", "DockedCell", Background -> 
    RGBColor[0., 0.35294117647058826`, 0.3686274509803922], CellMargins -> 0, 

@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    153663,       2859]
+NotebookDataLength[    153665,       2859]
 NotebookOptionsPosition[    146203,       2708]
-NotebookOutlinePosition[    151712,       2816]
-CellTagsIndexPosition[    151669,       2813]
+NotebookOutlinePosition[    151714,       2816]
+CellTagsIndexPosition[    151671,       2813]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -1795,8 +1795,8 @@ uIaM0zIjI4PayJ3Ucv1Tp6D9mf8Vfx/8C+A+Swo=
                 "Not Connected (Light 6000 Sensor)"}, 
                Devices`DeviceAPI`DeviceDump`d$$ = 
                DeviceObject[{"Vernier", 1}], 
-               Devices`DeviceAPI`DeviceDump`ind$$ = 1, 
-               Devices`DeviceAPI`DeviceDump`indr$$ = 1}, 
+               Devices`DeviceAPI`DeviceDump`ind$$ = 2, 
+               Devices`DeviceAPI`DeviceDump`indr$$ = 2}, 
                DynamicBox[ToBoxes[Devices`DeviceAPI`DeviceDump`ind$$ = If[
                     DeviceOpenQ[Devices`DeviceAPI`DeviceDump`d$$], 1, 2]; 
                  Devices`DeviceAPI`DeviceDump`indr$$ = If[
@@ -1812,7 +1812,7 @@ uIaM0zIjI4PayJ3Ucv1Tp6D9mf8Vfx/8C+A+Swo=
                    Part[
                    Devices`DeviceAPI`DeviceDump`opacities$$, 
                     Devices`DeviceAPI`DeviceDump`indr$$]], StandardForm],
-                ImageSizeCache->{176., {5., 9.}}],
+                ImageSizeCache->{199., {5., 9.}}],
                DynamicModuleValues:>{}],
               "SummaryItem"]}], "\[SpanFromLeft]"}
           },
@@ -2706,8 +2706,8 @@ another sensor.\
   3.6997917318233013`*^9}},ExpressionUUID->"172a013d-0a98-4046-9c7a-\
 ab07d27eb85b"]
 },
-WindowSize->{759, 843},
-WindowMargins->{{34, Automatic}, {Automatic, 26}},
+WindowSize->{775, 872},
+WindowMargins->{{225, Automatic}, {-15, Automatic}},
 DockedCells->{
   Cell["", "DockedCell", Background -> 
    RGBColor[0., 0.35294117647058826`, 0.3686274509803922], CellMargins -> 0, 
@@ -2819,7 +2819,7 @@ Cell[558, 20, 320, 7, 49, "Text", "ExpressionUUID" -> \
 "1e8e5e73-bc6f-4d60-a3f9-b9a79adda570"],
 Cell[881, 29, 98571, 1620, 295, "Input", "ExpressionUUID" -> \
 "8b070ef0-d2d6-4d97-b142-84ab93c8757c"],
-Cell[99455, 1651, 752, 17, 49, "Text", "ExpressionUUID" -> \
+Cell[99455, 1651, 752, 17, 30, "Text", "ExpressionUUID" -> \
 "b9e9fd37-a6da-44fe-b5b9-cd03ca88e2d8"],
 Cell[CellGroupData[{
 Cell[100232, 1672, 235, 5, 30, "Input", "ExpressionUUID" -> \
@@ -2847,7 +2847,7 @@ Cell[118695, 2081, 253, 5, 30, "Input", "ExpressionUUID" -> \
 Cell[118951, 2088, 10942, 216, 72, "Output", "ExpressionUUID" -> \
 "7585b654-29e2-425c-afad-c0caaa19ba1a"]
 }, Open  ]],
-Cell[129908, 2307, 361, 7, 68, "Text", "ExpressionUUID" -> \
+Cell[129908, 2307, 361, 7, 49, "Text", "ExpressionUUID" -> \
 "331b50c5-a685-450b-83d7-e9948fd61248"],
 Cell[CellGroupData[{
 Cell[130294, 2318, 277, 7, 30, "Input", "ExpressionUUID" -> \

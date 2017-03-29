@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    176506,       3237]
+NotebookDataLength[    176507,       3237]
 NotebookOptionsPosition[    168605,       3076]
-NotebookOutlinePosition[    174128,       3184]
-CellTagsIndexPosition[    174085,       3181]
+NotebookOutlinePosition[    174129,       3184]
+CellTagsIndexPosition[    174086,       3181]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -3074,8 +3074,8 @@ another sensor.\
   3.6997918061432095`*^9}},ExpressionUUID->"9e1ead30-f49a-4b96-afe5-\
 4d09978b383b"]
 },
-WindowSize->{943, 833},
-WindowMargins->{{Automatic, 153}, {47, Automatic}},
+WindowSize->{775, 872},
+WindowMargins->{{100, Automatic}, {-15, Automatic}},
 DockedCells->{
   Cell["", "DockedCell", Background -> 
    RGBColor[0., 0.35294117647058826`, 0.3686274509803922], CellMargins -> 0, 
@@ -3183,7 +3183,7 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 360, 7, 49, "Text", "ExpressionUUID" -> \
+Cell[558, 20, 360, 7, 68, "Text", "ExpressionUUID" -> \
 "a4b6ce66-c011-479c-8855-5d13997dd63f"],
 Cell[CellGroupData[{
 Cell[943, 31, 188, 3, 29, "Item", "ExpressionUUID" -> \

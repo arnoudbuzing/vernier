@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    535105,       9093]
-NotebookOptionsPosition[    527633,       8942]
-NotebookOutlinePosition[    533150,       9050]
-CellTagsIndexPosition[    533107,       9047]
+NotebookDataLength[    535183,       9097]
+NotebookOptionsPosition[    527711,       8946]
+NotebookOutlinePosition[    533228,       9054]
+CellTagsIndexPosition[    533185,       9051]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -7929,8 +7929,9 @@ Cell[BoxData[
           
           ImageSize->
            Dynamic[{
-            Automatic, 3.5 CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
-             Magnification]}]], 
+            Automatic, 
+             3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+              Magnification])}]], 
          GraphicsBox[RasterBox[CompressedData["
 1:eJzFmGdoFVsQx6OJWFBBsPJsT0FQBBUbSFRQiYoKIhbsmugHW4IV/WDvYo1d
 Y42JBWuKvcSCvTwTjS2xEmvssUSj+35v/9zDevfmPrHEgbvMmT07Z/rMuX+H
@@ -8023,8 +8024,8 @@ uIaM0zIjI4PayJ3Ucv1Tp6D9mf8Vfx/8C+A+Swo=
                 "Not Connected (Gas Pressure Sensor)"}, 
                Devices`DeviceAPI`DeviceDump`d$$ = 
                DeviceObject[{"Vernier", 1}], 
-               Devices`DeviceAPI`DeviceDump`ind$$ = 1, 
-               Devices`DeviceAPI`DeviceDump`indr$$ = 1}, 
+               Devices`DeviceAPI`DeviceDump`ind$$ = 2, 
+               Devices`DeviceAPI`DeviceDump`indr$$ = 2}, 
                DynamicBox[ToBoxes[Devices`DeviceAPI`DeviceDump`ind$$ = If[
                     DeviceOpenQ[Devices`DeviceAPI`DeviceDump`d$$], 1, 2]; 
                  Devices`DeviceAPI`DeviceDump`indr$$ = If[
@@ -8040,7 +8041,7 @@ uIaM0zIjI4PayJ3Ucv1Tp6D9mf8Vfx/8C+A+Swo=
                    Part[
                    Devices`DeviceAPI`DeviceDump`opacities$$, 
                     Devices`DeviceAPI`DeviceDump`indr$$]], StandardForm],
-                ImageSizeCache->{188., {5., 9.}}],
+                ImageSizeCache->{211., {5., 9.}}],
                DynamicModuleValues:>{}],
               "SummaryItem"]}], "\[SpanFromLeft]"}
           },
@@ -8074,8 +8075,9 @@ uIaM0zIjI4PayJ3Ucv1Tp6D9mf8Vfx/8C+A+Swo=
           
           ImageSize->
            Dynamic[{
-            Automatic, 3.5 CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
-             Magnification]}]], 
+            Automatic, 
+             3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+              Magnification])}]], 
          GraphicsBox[RasterBox[CompressedData["
 1:eJzFmGdoFVsQx6OJWFBBsPJsT0FQBBUbSFRQiYoKIhbsmugHW4IV/WDvYo1d
 Y42JBWuKvcSCvTwTjS2xEmvssUSj+35v/9zDevfmPrHEgbvMmT07Z/rMuX+H
@@ -8333,8 +8335,9 @@ Cell[BoxData[
                  Evaluator -> Automatic, Method -> "Preemptive"], 
                Alignment -> {Center, Center}, ImageSize -> 
                Dynamic[{
-                 Automatic, 3.5 CurrentValue["FontCapHeight"]/
-                  AbsoluteCurrentValue[Magnification]}]], 
+                 Automatic, 
+                  3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                   Magnification])}]], 
               GraphicsBox[{
                 
                 RasterBox[{{{0.66, 0.66, 0.66}, {0.49, 0.49, 0.49}, {0.74, 
@@ -8423,8 +8426,9 @@ Cell[BoxData[
                 None, Evaluator -> Automatic, Method -> "Preemptive"], 
                Alignment -> {Center, Center}, ImageSize -> 
                Dynamic[{
-                 Automatic, 3.5 CurrentValue["FontCapHeight"]/
-                  AbsoluteCurrentValue[Magnification]}]], 
+                 Automatic, 
+                  3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                   Magnification])}]], 
               GraphicsBox[{
                 
                 RasterBox[{{{0.66, 0.66, 0.66}, {0.49, 0.49, 0.49}, {0.74, 
@@ -8940,8 +8944,8 @@ another sensor.\
   3.6997917318233013`*^9}},ExpressionUUID->"658b393a-e685-4365-af60-\
 34316f503ec6"]
 },
-WindowSize->{759, 833},
-WindowMargins->{{557, Automatic}, {61, Automatic}},
+WindowSize->{775, 872},
+WindowMargins->{{150, Automatic}, {Automatic, 31}},
 DockedCells->{
   Cell["", "DockedCell", Background -> 
    RGBColor[0., 0.35294117647058826`, 0.3686274509803922], CellMargins -> 0, 
@@ -9051,49 +9055,49 @@ CellTagsIndex->{}
 Notebook[{
 Cell[558, 20, 628, 11, 87, "Text", "ExpressionUUID" -> \
 "7a6d6a8a-2e9e-4fcd-91ca-09bce8c88a79"],
-Cell[1189, 33, 478228, 7845, 345, "Input", "ExpressionUUID" -> \
+Cell[1189, 33, 478228, 7845, 353, "Input", "ExpressionUUID" -> \
 "0c425947-0520-45f7-8046-c65ad1443020"],
-Cell[479420, 7880, 754, 17, 49, "Text", "ExpressionUUID" -> \
+Cell[479420, 7880, 754, 17, 30, "Text", "ExpressionUUID" -> \
 "93b65422-782d-4da7-9a5f-0445c198b0dd"],
 Cell[CellGroupData[{
 Cell[480199, 7901, 235, 5, 30, "Input", "ExpressionUUID" -> \
 "5d596003-6106-48e4-af47-f29abda90d56"],
-Cell[480437, 7908, 16536, 346, 72, "Output", "ExpressionUUID" -> \
+Cell[480437, 7908, 16570, 348, 72, "Output", "ExpressionUUID" -> \
 "318b1489-525a-42f9-a657-3cd3a69d620b"]
 }, Open  ]],
-Cell[496988, 8257, 377, 7, 30, "Text", "ExpressionUUID" -> \
+Cell[497022, 8259, 377, 7, 30, "Text", "ExpressionUUID" -> \
 "202ebf05-2ad4-4f4d-b82d-99770b96dab5"],
-Cell[497368, 8266, 354, 9, 30, "Text", "ExpressionUUID" -> \
+Cell[497402, 8268, 354, 9, 30, "Text", "ExpressionUUID" -> \
 "1be98d5e-5cfb-4676-b7da-280bcf5126a7"],
-Cell[497725, 8277, 274, 4, 30, "Text", "ExpressionUUID" -> \
+Cell[497759, 8279, 274, 4, 30, "Text", "ExpressionUUID" -> \
 "52af771e-3491-4ce9-bffe-d973518ee066"],
 Cell[CellGroupData[{
-Cell[498024, 8285, 198, 4, 30, "Input", "ExpressionUUID" -> \
+Cell[498058, 8287, 198, 4, 30, "Input", "ExpressionUUID" -> \
 "fdda9c3f-236e-4111-8310-8864c62bf409"],
-Cell[498225, 8291, 342, 6, 39, "Output", "ExpressionUUID" -> \
+Cell[498259, 8293, 342, 6, 39, "Output", "ExpressionUUID" -> \
 "eaf0a04f-1c4d-4350-bd75-499ff4e4730e"]
 }, Open  ]],
-Cell[498582, 8300, 242, 6, 30, "Text", "ExpressionUUID" -> \
+Cell[498616, 8302, 242, 6, 30, "Text", "ExpressionUUID" -> \
 "f9d553f8-5b47-4529-a5ee-a935ee8c0c63"],
 Cell[CellGroupData[{
-Cell[498849, 8310, 253, 5, 30, "Input", "ExpressionUUID" -> \
+Cell[498883, 8312, 253, 5, 30, "Input", "ExpressionUUID" -> \
 "2d239731-a9e2-466f-81c9-5f6d7eb778e0"],
-Cell[499105, 8317, 11105, 219, 72, "Output", "ExpressionUUID" -> \
+Cell[499139, 8319, 11149, 221, 72, "Output", "ExpressionUUID" -> \
 "24db528b-35d0-4541-976b-c4e539025931"]
 }, Open  ]],
-Cell[510225, 8539, 361, 7, 68, "Text", "ExpressionUUID" -> \
+Cell[510303, 8543, 361, 7, 68, "Text", "ExpressionUUID" -> \
 "de862c15-e528-42aa-96a2-8f6d2aad0782"],
 Cell[CellGroupData[{
-Cell[510611, 8550, 277, 7, 30, "Input", "ExpressionUUID" -> \
+Cell[510689, 8554, 277, 7, 30, "Input", "ExpressionUUID" -> \
 "35d2dcbb-e8e0-4de1-b35f-d1c77e60eb95"],
-Cell[510891, 8559, 15961, 357, 72, "Output", "ExpressionUUID" -> \
+Cell[510969, 8563, 15961, 357, 72, "Output", "ExpressionUUID" -> \
 "dea889bc-2b5a-45e7-827c-ec5f0365db3a"]
 }, Open  ]],
-Cell[526867, 8919, 267, 6, 30, "Text", "ExpressionUUID" -> \
+Cell[526945, 8923, 267, 6, 30, "Text", "ExpressionUUID" -> \
 "282acf46-c448-4303-897a-a593e9354230"],
-Cell[527137, 8927, 197, 4, 30, "Input", "ExpressionUUID" -> \
+Cell[527215, 8931, 197, 4, 30, "Input", "ExpressionUUID" -> \
 "b990fbb3-2d3d-462e-aed4-2a63cab2e7ee"],
-Cell[527337, 8933, 292, 7, 30, "Text", "ExpressionUUID" -> \
+Cell[527415, 8937, 292, 7, 30, "Text", "ExpressionUUID" -> \
 "658b393a-e685-4365-af60-34316f503ec6"]
 }
 ]
