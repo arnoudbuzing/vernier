@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    200294,       3607]
-NotebookOptionsPosition[    192825,       3456]
-NotebookOutlinePosition[    198340,       3564]
-CellTagsIndexPosition[    198297,       3561]
+NotebookDataLength[    200372,       3611]
+NotebookOptionsPosition[    192903,       3460]
+NotebookOutlinePosition[    198418,       3568]
+CellTagsIndexPosition[    198375,       3565]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -2446,8 +2446,9 @@ Cell[BoxData[
           
           ImageSize->
            Dynamic[{
-            Automatic, 3.5 CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
-             Magnification]}]], 
+            Automatic, 
+             3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+              Magnification])}]], 
          GraphicsBox[RasterBox[CompressedData["
 1:eJzFmGdoFVsQx6OJWFBBsPJsT0FQBBUbSFRQiYoKIhbsmugHW4IV/WDvYo1d
 Y42JBWuKvcSCvTwTjS2xEmvssUSj+35v/9zDevfmPrHEgbvMmT07Z/rMuX+H
@@ -2541,7 +2542,7 @@ uIaM0zIjI4PayJ3Ucv1Tp6D9mf8Vfx/8C+A+Swo=
                Devices`DeviceAPI`DeviceDump`d$$ = 
                DeviceObject[{"Vernier", 1}], 
                Devices`DeviceAPI`DeviceDump`ind$$ = 2, 
-               Devices`DeviceAPI`DeviceDump`indr$$ = 1}, 
+               Devices`DeviceAPI`DeviceDump`indr$$ = 2}, 
                DynamicBox[ToBoxes[Devices`DeviceAPI`DeviceDump`ind$$ = If[
                     DeviceOpenQ[Devices`DeviceAPI`DeviceDump`d$$], 1, 2]; 
                  Devices`DeviceAPI`DeviceDump`indr$$ = If[
@@ -2591,8 +2592,9 @@ uIaM0zIjI4PayJ3Ucv1Tp6D9mf8Vfx/8C+A+Swo=
           
           ImageSize->
            Dynamic[{
-            Automatic, 3.5 CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
-             Magnification]}]], 
+            Automatic, 
+             3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+              Magnification])}]], 
          GraphicsBox[RasterBox[CompressedData["
 1:eJzFmGdoFVsQx6OJWFBBsPJsT0FQBBUbSFRQiYoKIhbsmugHW4IV/WDvYo1d
 Y42JBWuKvcSCvTwTjS2xEmvssUSj+35v/9zDevfmPrHEgbvMmT07Z/rMuX+H
@@ -2849,8 +2851,9 @@ Cell[BoxData[
                  Evaluator -> Automatic, Method -> "Preemptive"], 
                Alignment -> {Center, Center}, ImageSize -> 
                Dynamic[{
-                 Automatic, 3.5 CurrentValue["FontCapHeight"]/
-                  AbsoluteCurrentValue[Magnification]}]], 
+                 Automatic, 
+                  3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                   Magnification])}]], 
               GraphicsBox[{
                 
                 RasterBox[{{{0.66, 0.66, 0.66}, {0.49, 0.49, 0.49}, {0.74, 
@@ -2939,8 +2942,9 @@ Cell[BoxData[
                 None, Evaluator -> Automatic, Method -> "Preemptive"], 
                Alignment -> {Center, Center}, ImageSize -> 
                Dynamic[{
-                 Automatic, 3.5 CurrentValue["FontCapHeight"]/
-                  AbsoluteCurrentValue[Magnification]}]], 
+                 Automatic, 
+                  3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                   Magnification])}]], 
               GraphicsBox[{
                 
                 RasterBox[{{{0.66, 0.66, 0.66}, {0.49, 0.49, 0.49}, {0.74, 
@@ -3572,42 +3576,42 @@ Cell[145034, 2397, 754, 17, 49, "Text", "ExpressionUUID" -> \
 Cell[CellGroupData[{
 Cell[145813, 2418, 235, 5, 30, "Input", "ExpressionUUID" -> \
 "e1b4f0a2-a32d-4889-9d85-0b629a08ce31"],
-Cell[146051, 2425, 16475, 345, 72, "Output", "ExpressionUUID" -> \
+Cell[146051, 2425, 16509, 347, 72, "Output", "ExpressionUUID" -> \
 "94f775c9-dcc3-44af-ba41-629088bfccef"]
 }, Open  ]],
-Cell[162541, 2773, 377, 7, 30, "Text", "ExpressionUUID" -> \
+Cell[162575, 2775, 377, 7, 30, "Text", "ExpressionUUID" -> \
 "13bc4e4f-1461-4be1-bc5f-857ee3856f17"],
-Cell[162921, 2782, 354, 9, 30, "Text", "ExpressionUUID" -> \
+Cell[162955, 2784, 354, 9, 30, "Text", "ExpressionUUID" -> \
 "ff3462a7-8752-40ab-82f3-c05774196188"],
-Cell[163278, 2793, 274, 4, 30, "Text", "ExpressionUUID" -> \
+Cell[163312, 2795, 274, 4, 30, "Text", "ExpressionUUID" -> \
 "0dd3cde6-459f-4e7a-b4d2-32e43708bcb3"],
 Cell[CellGroupData[{
-Cell[163577, 2801, 198, 4, 30, "Input", "ExpressionUUID" -> \
+Cell[163611, 2803, 198, 4, 30, "Input", "ExpressionUUID" -> \
 "db5a3e0c-09d8-4a61-9c9d-ccac88dec689"],
-Cell[163778, 2807, 293, 6, 39, "Output", "ExpressionUUID" -> \
+Cell[163812, 2809, 293, 6, 39, "Output", "ExpressionUUID" -> \
 "827f6885-bdf5-437f-b28e-14b9d7202eb0"]
 }, Open  ]],
-Cell[164086, 2816, 242, 6, 30, "Text", "ExpressionUUID" -> \
+Cell[164120, 2818, 242, 6, 30, "Text", "ExpressionUUID" -> \
 "d5e2fd50-cb25-4cbb-a4a1-99273a87eaa8"],
 Cell[CellGroupData[{
-Cell[164353, 2826, 253, 5, 30, "Input", "ExpressionUUID" -> \
+Cell[164387, 2828, 253, 5, 30, "Input", "ExpressionUUID" -> \
 "7503a53c-ee12-4ca5-8435-00897e698848"],
-Cell[164609, 2833, 11054, 218, 72, "Output", "ExpressionUUID" -> \
+Cell[164643, 2835, 11098, 220, 72, "Output", "ExpressionUUID" -> \
 "dfe63845-5d40-4bca-8cbb-1267d2251f49"]
 }, Open  ]],
-Cell[175678, 3054, 361, 7, 68, "Text", "ExpressionUUID" -> \
+Cell[175756, 3058, 361, 7, 68, "Text", "ExpressionUUID" -> \
 "bccd79cd-6305-45d9-affc-e1b7cfafac42"],
 Cell[CellGroupData[{
-Cell[176064, 3065, 277, 7, 30, "Input", "ExpressionUUID" -> \
+Cell[176142, 3069, 277, 7, 30, "Input", "ExpressionUUID" -> \
 "ad0a99f3-59ee-4e30-9ed2-848e94c2d306"],
-Cell[176344, 3074, 15700, 356, 72, "Output", "ExpressionUUID" -> \
+Cell[176422, 3078, 15700, 356, 72, "Output", "ExpressionUUID" -> \
 "325ba9c5-e48f-4ff5-a38c-96feee81b75e"]
 }, Open  ]],
-Cell[192059, 3433, 267, 6, 30, "Text", "ExpressionUUID" -> \
+Cell[192137, 3437, 267, 6, 30, "Text", "ExpressionUUID" -> \
 "a8d7b3d8-1d4b-4cc1-83c2-2aff3588fd58"],
-Cell[192329, 3441, 197, 4, 30, "Input", "ExpressionUUID" -> \
+Cell[192407, 3445, 197, 4, 30, "Input", "ExpressionUUID" -> \
 "3eec581f-7d69-465d-8513-b95c0fbb3900"],
-Cell[192529, 3447, 292, 7, 30, "Text", "ExpressionUUID" -> \
+Cell[192607, 3451, 292, 7, 30, "Text", "ExpressionUUID" -> \
 "4d381309-b830-4f91-802d-e6def00c9f1c"]
 }
 ]
