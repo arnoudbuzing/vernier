@@ -2541,8 +2541,8 @@ uIaM0zIjI4PayJ3Ucv1Tp6D9mf8Vfx/8C+A+Swo=
                 "Not Connected (Barometer Sensor)"}, 
                Devices`DeviceAPI`DeviceDump`d$$ = 
                DeviceObject[{"Vernier", 1}], 
-               Devices`DeviceAPI`DeviceDump`ind$$ = 2, 
-               Devices`DeviceAPI`DeviceDump`indr$$ = 2}, 
+               Devices`DeviceAPI`DeviceDump`ind$$ = 1, 
+               Devices`DeviceAPI`DeviceDump`indr$$ = 1}, 
                DynamicBox[ToBoxes[Devices`DeviceAPI`DeviceDump`ind$$ = If[
                     DeviceOpenQ[Devices`DeviceAPI`DeviceDump`d$$], 1, 2]; 
                  Devices`DeviceAPI`DeviceDump`indr$$ = If[
@@ -2558,7 +2558,7 @@ uIaM0zIjI4PayJ3Ucv1Tp6D9mf8Vfx/8C+A+Swo=
                    Part[
                    Devices`DeviceAPI`DeviceDump`opacities$$, 
                     Devices`DeviceAPI`DeviceDump`indr$$]], StandardForm],
-                ImageSizeCache->{200., {5., 9.}}],
+                ImageSizeCache->{177., {5., 9.}}],
                DynamicModuleValues:>{}],
               "SummaryItem"]}], "\[SpanFromLeft]"}
           },
@@ -3459,7 +3459,7 @@ another sensor.\
 e6def00c9f1c"]
 },
 WindowSize->{775, 872},
-WindowMargins->{{25, Automatic}, {Automatic, 31}},
+WindowMargins->{{41, Automatic}, {Automatic, 46}},
 DockedCells->{
   Cell["", "DockedCell", Background -> 
    RGBColor[0., 0.35294117647058826`, 0.3686274509803922], CellMargins -> 0, 

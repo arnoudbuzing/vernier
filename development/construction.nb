@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     11814,        269]
-NotebookOptionsPosition[     10853,        240]
-NotebookOutlinePosition[     11213,        256]
-CellTagsIndexPosition[     11170,        253]
+NotebookDataLength[     11333,        257]
+NotebookOptionsPosition[     10372,        228]
+NotebookOutlinePosition[     10733,        244]
+CellTagsIndexPosition[     10690,        241]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -131,7 +131,7 @@ Cell[BoxData[
         RowBox[{"{", 
          RowBox[{
           RowBox[{"Image", "[", 
-           RowBox[{"vernier", ",", 
+           RowBox[{"wolfram", ",", 
             RowBox[{"ImageSize", "\[Rule]", 
              RowBox[{"{", 
               RowBox[{"170", ",", "65"}], "}"}]}]}], "]"}], ",", 
@@ -156,7 +156,8 @@ Cell[BoxData[
    3.6998030963739195`*^9, 3.699803102349374*^9}, {3.699803257261879*^9, 
    3.699803259309452*^9}, {3.699804028773423*^9, 3.6998040294926114`*^9}, {
    3.699804404141115*^9, 3.699804409868763*^9}, {3.6998046438868*^9, 
-   3.699804649005777*^9}},ExpressionUUID->"6c863592-c14c-4de6-8dd9-\
+   3.699804649005777*^9}, {3.6998063831810627`*^9, 
+   3.69980638394151*^9}},ExpressionUUID->"6c863592-c14c-4de6-8dd9-\
 dbceb815eb45"],
 
 Cell[CellGroupData[{
@@ -173,35 +174,22 @@ Cell[BoxData[
  RowBox[{"{", 
   RowBox[{
    TemplateBox[{FrontEndObject[
-      LinkObject["2xmvs_shm", 3, 1]],33,
-     "FrontEndObject[LinkObject[\"2xmvs_shm\", 3, 1]]","33",
+      LinkObject["wqbuz_shm", 3, 1]],15,
+     "FrontEndObject[LinkObject[\"wqbuz_shm\", 3, 1]]","15",
      "\"construction.nb\"",
      "\"D:\\\\github\\\\vernier\\\\development\\\\construction.nb\""},
     "NotebookObject"], ",", 
    TemplateBox[{FrontEndObject[
-      LinkObject["2xmvs_shm", 3, 1]],45,
-     "FrontEndObject[LinkObject[\"2xmvs_shm\", 3, 1]]","45",
-     "\"differential-voltage-probe.nb\"",
-     "\"D:\\\\github\\\\vernier\\\\basic-usage\\\\differential-voltage-probe.\
-nb\""},
-    "NotebookObject"], ",", 
-   TemplateBox[{FrontEndObject[
-      LinkObject["2xmvs_shm", 3, 1]],18,
-     "FrontEndObject[LinkObject[\"2xmvs_shm\", 3, 1]]","18",
-     "\"current-probe.nb\"",
-     "\"D:\\\\github\\\\vernier\\\\basic-usage\\\\current-probe.nb\""},
-    "NotebookObject"], ",", 
-   TemplateBox[{FrontEndObject[
-      LinkObject["2xmvs_shm", 3, 1]],1,
-     "FrontEndObject[LinkObject[\"2xmvs_shm\", 3, 1]]","1","\"Messages\""},
+      LinkObject["wqbuz_shm", 3, 1]],1,
+     "FrontEndObject[LinkObject[\"wqbuz_shm\", 3, 1]]","1","\"Messages\""},
     "NotebookObjectUnsaved"]}], "}"}]], "Output",
  CellChangeTimes->{
   3.6997126154746294`*^9, 3.699719601794609*^9, {3.6997913973338885`*^9, 
    3.6997914201082525`*^9}, 3.699792923278672*^9, 3.6997935151689744`*^9, 
    3.699803063820176*^9, 3.699803260587262*^9, 3.699804031385183*^9, 
-   3.6998044127602253`*^9, 
-   3.699804650335101*^9},ExpressionUUID->"80a58018-4741-4ef0-b5b0-\
-ea573901f5dc"]
+   3.6998044127602253`*^9, 3.699804650335101*^9, 
+   3.6998063862255898`*^9},ExpressionUUID->"d830991d-61d0-48dc-a388-\
+87e6a86c49c2"]
 }, Open  ]],
 
 Cell[BoxData[
@@ -239,7 +227,7 @@ Cell[BoxData[
 2f207336eaf0"]
 },
 WindowSize->{775, 872},
-WindowMargins->{{28, Automatic}, {Automatic, 40}},
+WindowMargins->{{Automatic, 373}, {18, Automatic}},
 DockedCells->{},
 FrontEndVersion->"11.1 for Microsoft Windows (64-bit) (March 13, 2017)",
 StyleDefinitions->"Default.nb"
@@ -259,17 +247,17 @@ Cell[558, 20, 505, 13, 50, "Input", "ExpressionUUID" -> \
 "84975d02-c4d3-4e5d-a7e8-0d156c639a01"],
 Cell[1066, 35, 4779, 85, 40, "Input", "ExpressionUUID" -> \
 "0c2f6bf6-6e66-42d8-8d53-90715aa14be0"],
-Cell[5848, 122, 1880, 37, 145, "Input", "ExpressionUUID" -> \
+Cell[5848, 122, 1931, 38, 145, "Input", "ExpressionUUID" -> \
 "6c863592-c14c-4de6-8dd9-dbceb815eb45"],
 Cell[CellGroupData[{
-Cell[7753, 163, 263, 6, 30, "Input", "ExpressionUUID" -> \
+Cell[7804, 164, 263, 6, 30, "Input", "ExpressionUUID" -> \
 "7d1f98fb-e922-44e7-886b-23ded7999e89"],
-Cell[8019, 171, 1405, 32, 89, "Output", "ExpressionUUID" -> \
-"80a58018-4741-4ef0-b5b0-ea573901f5dc"]
+Cell[8070, 172, 873, 19, 49, "Output", "ExpressionUUID" -> \
+"d830991d-61d0-48dc-a388-87e6a86c49c2"]
 }, Open  ]],
-Cell[9439, 206, 1090, 22, 88, "Input", "ExpressionUUID" -> \
+Cell[8958, 194, 1090, 22, 88, "Input", "ExpressionUUID" -> \
 "94ecf099-d0c1-4cd6-9798-aac897bf5e42"],
-Cell[10532, 230, 317, 8, 30, "Input", "ExpressionUUID" -> \
+Cell[10051, 218, 317, 8, 30, "Input", "ExpressionUUID" -> \
 "3a1b9cd5-a65e-45af-9141-2f207336eaf0"]
 }
 ]

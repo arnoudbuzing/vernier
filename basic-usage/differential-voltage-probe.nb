@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    374511,       6471]
+NotebookDataLength[    374509,       6471]
 NotebookOptionsPosition[    366929,       6318]
-NotebookOutlinePosition[    372457,       6426]
-CellTagsIndexPosition[    372414,       6423]
+NotebookOutlinePosition[    372455,       6426]
+CellTagsIndexPosition[    372412,       6423]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -6317,7 +6317,7 @@ another sensor.\
 8c2c72526f2d"]
 },
 WindowSize->{759, 833},
-WindowMargins->{{Automatic, 229}, {-156, Automatic}},
+WindowMargins->{{254, Automatic}, {Automatic, 58}},
 DockedCells->{
   Cell["", "DockedCell", Background -> 
    RGBColor[0., 0.35294117647058826`, 0.3686274509803922], CellMargins -> 0, 

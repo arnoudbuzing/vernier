@@ -8118,7 +8118,7 @@ another sensor.\
 9ab47b8df3b3"]
 },
 WindowSize->{775, 872},
-WindowMargins->{{Automatic, 148}, {21, Automatic}},
+WindowMargins->{{180, Automatic}, {Automatic, 46}},
 DockedCells->{
   Cell["", "DockedCell", Background -> 
    RGBColor[0., 0.35294117647058826`, 0.3686274509803922], CellMargins -> 0, 
